@@ -1,0 +1,133 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* Ensure full height */
+    background: white;
+    padding: 40px 20px;  /* Add padding to prevent sticking */
+  }
+  
+  /* Signup Box */
+  .signup-box {
+    background: rgb(217, 249, 161);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: box-shadow 0.4s ease, transform 0.3s;
+    margin: 20px 0; /* ✅ Adds space on top and bottom */
+  }
+  /* Reduce Height */
+  .signup-box {
+    min-height: auto; /* ✅ Reduce height */
+  }
+  
+  /* Hover Effect */
+  .signup-box:hover {
+    box-shadow: 0 6px 20px rgba(85, 107, 47, 0.3);
+    transform: scale(1.03);
+  }
+  
+  /* Form Title */
+  .signup-box h1 {
+    margin-bottom: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3d5a1a;
+  }
+  
+  /* Input Groups */
+  .input-group {
+    text-align: left;
+    margin-bottom: 0.8rem;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2e4a11;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #8ab64d;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-group input:focus {
+    border-color: #5c8f2c;
+  }
+  
+  /* Checkbox Group */
+.checkbox-group {
+    display: flex;
+    align-items: center; 
+    font-size: 14px;
+    margin-bottom: 1rem;
+    gap: 8px; /* Adds spacing between checkbox and text */
+  }
+  
+  /* Ensure checkbox is properly aligned */
+  .checkbox-group input {
+    width: 16px;
+    height: 16px;
+    accent-color: green; /* Change checkbox color */
+    cursor: pointer;
+  }
+  
+  /* Adjust link appearance */
+  .checkbox-group a {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 4px;
+  }
+  
+  /* Button Styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5c8f2c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #456a20;
+    transform: scale(1.02);
+  }
+  
+  /* Login Link */
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .login-link {
+    color: #5c8f2c;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .signup-box {
+        padding: 1.5rem;
+    }
+  }
+  

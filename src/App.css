@@ -1,38 +1,99 @@
-.App {
+.main-container{
+  display: flex;
+  justify-content: space-around;
+}
+.login-container {
+  width: 30%;
+  margin: auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(217, 249, 161);
+  margin-top: 100px;
   text-align: center;
+  transition: box-shadow 0.5s ease, transform 0.3s;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-container:hover{
+  box-shadow: 5px 5px 15px rgba(148, 181, 231, 0.5); /* Red shadow */
+  transform: scale(1.1);
+} 
+.login-heading {
+  color: #333;
+  font-family: "roboto";
+  margin-bottom: 0px;
+  font-size: 23px;
+  text-align: left;
+  font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.para{
+  font-family: "roboto";
+  text-align: left;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label{
+  font-family: "roboto";
+  font-weight: 200px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.login-button{
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #0056b3;
 }
 
-.App-link {
-  color: #61dafb;
+.error {
+  color: red;
+  font-size: 12px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+.signup-link:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.signup-link{
+  color: #5c8f2c;
+}
+.image{
+  background-image: url("https://img.freepik.com/free-vector/healthy-habit-concept-illustration_114360-1132.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+}
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }

@@ -1,0 +1,52 @@
+/* Main container for the trends section */
+.trends-container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 50px auto 20px; 
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  /* Styling for the section header */
+  .trends-header {
+    font-size: 32px;
+    font-weight: bold;
+    color: #5C8F2C;
+    margin-bottom: 25px;
+  }
+  
+  /* Wrapper for the chart to maximize its space */
+  .chart-wrapper {
+    width: 90%;
+    height: 350px; /* Increased height for better visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Responsive Design Adjustments */
+  @media (max-width: 1024px) {
+    .trends-container {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .chart-wrapper {
+        height: 400px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .trends-header {
+        font-size: 26px;
+    }
+  
+    .chart-wrapper {
+        height: 350px; /* Adjusted for smaller screens */
+    }
+  }
+  

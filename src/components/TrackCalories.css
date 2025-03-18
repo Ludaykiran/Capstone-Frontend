@@ -1,0 +1,107 @@
+.calorie-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 60px; 
+  }
+  .calorie-container {
+    flex: 1;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .calorie-input{
+    border-color: #8ab64d;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background: #5c8f2c;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #4a7a25;
+  }
+  
+  .clear-btn {
+    background: #d9534f;
+  }
+  
+  .clear-btn:hover {
+    background: #c9302c;
+  }
+  .toggle-btn {
+    background: #8AB64D;
+  }
+  .calorie-list-container {
+    max-height: 200px; 
+    overflow-y: auto; 
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    display: none; 
+  }
+  .calorie-list-container.show {
+    display: block;
+  }
+  .calorie-list {
+    list-style: none;
+    padding: 0;
+  }
+  .calorie-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  .chart-container {
+    flex: 1;
+    max-width: 450px;
+    height: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .calories-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #5c8f2c;
+    margin-bottom: 20px;
+  }
+  .button-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+  .button-width{
+    flex: 1; 
+    min-width: 30%;
+  }

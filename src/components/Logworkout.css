@@ -1,0 +1,123 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .table-input {
+    border-color: #8ab64d;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .row-color {
+    background-color: #5c8f2c;
+  }
+  
+  .input-group-select {
+    padding: 10px;
+    border: 2px solid #8ab64d;
+    border-radius: 1px;
+    flex: 1;
+    color: #7c7676;
+    font-size: 15px;
+  }
+  
+  .input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .logworkout-header {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #5c8f2c;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #5c8f2c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .add-workout-button{
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* ✅ Scrollable Table */
+  .workout-table-container {
+    max-height: 200px; /* Adjust height as needed */
+    overflow-y: auto;
+    border: 1px solid #ddd;
+  }
+  
+  .workout-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .workout-table th, .workout-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .workout-table th {
+    background-color: #8ab64d;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirm-btn {
+    background-color: #FF9800;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background-color: #757575;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
